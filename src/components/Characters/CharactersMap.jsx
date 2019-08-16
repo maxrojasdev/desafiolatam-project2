@@ -21,7 +21,7 @@ const Characters = props => {
 
         setFavs(favs2)
         console.log("favs: ", favs2)
-    }
+    };
 
     const handlerOnClick = e => {
         const aux = parseInt(e.target.value)
@@ -33,6 +33,10 @@ const Characters = props => {
             setFavs([...favs, aux])
             console.log("Se agrego a favoritos el personaje: ", aux)
         }
+    };
+
+    const handlerClick = ({target: {value}}) => {
+        props.getCharactersComponent(value)
     };
 
     const handlerOnClickDelete = e => {
@@ -96,6 +100,10 @@ const Characters = props => {
                         })
                     }
                 </Row>
+                <br/>
+                {props.characters.info.next !== '' ? <Button type='button' variant={'success'} className='float-right' value={props.characters.info.next} onClick={handlerClick}>Siguiente</Button> : null}
+                {props.characters.info.prev !== '' ? <Button type='button' variant={'success'} className='float-right' value={props.characters.info.prev} onClick={handlerClick}>Anterior</Button> : null}
+                <br/><br/>
             </Container>
         );
     } else {

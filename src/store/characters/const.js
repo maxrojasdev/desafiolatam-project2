@@ -1,0 +1,9 @@
+// Characters (in plural) consts
+export const GET_CHARACTERS_INIT = "GET_CHARACTERS_INIT";
+export const GET_CHARACTERS_SUCCESS = "GET_CHARACTERS_SUCCESS";
+export const GET_CHARACTERS_ERROR = "GET_CHARACTERS_ERROR";
+
+// Character (in singular) consts
+export const GET_CHARACTER_INIT = "GET_CHARACTER_INIT";
+export const GET_CHARACTER_SUCCESS = "GET_CHARACTER_SUCCESS";
+export const GET_CHARACTER_ERROR = "GET_CHARACTER_ERROR";

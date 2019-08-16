@@ -1,0 +1,117 @@
+{
+  "login": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Manolo",
+      "email": "manolito@gmail.com",
+      "favoriteEpisodes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "episodesWatched": [
+        "1",
+        "2",
+        "3"
+      ],
+      "favoriteCharacters": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ana",
+      "email": "anita@gmail.com",
+      "favoriteEpisodes": [
+        "5",
+        "6",
+        "3"
+      ],
+      "episodesWatched": [
+        "9",
+        "2",
+        "8"
+      ],
+      "favoriteCharacters": [
+        "11",
+        "12",
+        "23"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Federico",
+      "email": "fede@gmail.com",
+      "favoriteEpisodes": [
+        "7",
+        "13",
+        "30"
+      ],
+      "episodesWatched": [
+        "9",
+        "2",
+        "8"
+      ],
+      "favoriteCharacters": [
+        "14",
+        "5",
+        "1"
+      ]
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "asd\nasd\n\nasd\nsad\n": "",
+      "id": 9
+    },
+    {
+      "asd\nasd\n\nasd\nsad\n": "",
+      "id": 10
+    },
+    {
+      "asd\nasd\n\nasd\nsad\n": "",
+      "id": 11
+    },
+    {
+      "{\"name\": LUCHO}": "",
+      "id": 12
+    },
+    {
+      "name: lucho": "",
+      "id": 13
+    },
+    {
+      "siple": "",
+      "id": 14
+    },
+    {
+      "siple \"as\"": "",
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "name": "saikss",
+      "id": 17
+    }
+  ]
+}
